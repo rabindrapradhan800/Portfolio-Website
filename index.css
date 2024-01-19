@@ -1,0 +1,613 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+          
+                                              /*how to create home-part*/ 
+#home{
+  background-color: black;
+  height: 100vh;
+}    
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+
+ h1{
+    font-size: 30px;
+    color: white;
+ }  
+ big{
+  font-size: 30px;
+ }
+ span{
+    color: crimson;
+ } 
+ .paragraph3{
+  display: flex;
+ flex-direction: row;
+}
+.div3 p{
+  color: white;
+}
+.div3{
+ padding: 100px;
+  border: solid 1px red;
+}
+  /*
+.div {
+  padding: auto;
+}
+.div p{
+    color: white;
+    text-align: left;
+}
+.div h1{
+    color: white;
+    font-size:50px;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+} 
+*/
+img{
+ 
+   float: right;
+    height: 350px; 
+    width: 400px;
+ /*  padding-right:150px;  */
+} 
+#botton{
+    padding-top: 10px; 
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+input{
+    padding: 10px;
+    border-radius: 20px;
+    border-color: crimson;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    border-color: crimson;
+    cursor: pointer;
+}
+/*
+.content-1 div{
+  float: left; 
+} */
+ 
+                                                                           /*create the About-page*/
+#AboutUs{
+   background-color: rgb(32, 30, 30);
+   height: 100vh;
+}
+.paragraph{
+    display: flex;
+   flex-direction: row;
+   padding: 30px;
+}
+
+.div2 p{
+  font-size: 20px;
+  color:white;
+}
+.div2 img{
+  padding: 10px;
+}
+.div2 h1{
+  text-align: center;
+  font-size: 50px;
+}
+.div2 h4{
+  text-align: center;
+  color: wheat;
+  font-size: 30px;
+}
+
+#button-3{
+    padding-top: 10px;
+}
+#button-3 button{
+    font-size: 15px;
+}
+button:hover{
+    background-color: crimson;
+}
+                                                                        /*create the project-section*/
+.container {
+    padding: 10px 10%;
+}    
+.sub-title {
+    font-family: 'Noto Serif', serif;
+    font-size: 50px;
+    font-weight: 600;
+    color:crimson;
+}   
+.work-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.work {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.work img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+.work:hover img {
+  transform: scale(1.1);
+}
+.layer {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+  
+}
+.layer h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}   
+.layer h3 {
+  font-size: 30px;
+}
+.layer p {
+  font-size: 19px;
+}
+.layer a {
+  margin-top: 20px;
+  color: red;
+  /* color: #ff004f; */
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}                                                                                                                                   /*create the our-services-page*/
+#our-service {
+  background-color:black;
+  height: 80vh;
+}
+#our-service h1{
+    padding-top: 50px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+#block-part{
+    padding-top: 70px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.paragraph_40{
+    padding-bottom: 20px;
+    border: 1px solid white;
+    margin: 8px;
+    border-radius: 10px;
+    background-color: rgb(163, 199, 231);
+    box-shadow: 0px 10px 10px crimson;
+}
+.paragraph_40:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.paragraph_40 p{
+    padding-top: 10px;
+    font-size: 20px;
+   color:black;
+   text-align: center;
+}
+.paragraph_40 h4{
+    padding-top: 10px;
+    font-size: 25px;
+    color:black;
+    text-align: center;
+}
+.paragraph_45{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#microphone{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #cf0973;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#microphone i{
+   height: 200px;
+}
+.paragraph_80{
+    height: 100px;
+    width: 100px; 
+    border-radius: 60%;
+   border-color:black;
+     background-color:rgb(47, 45, 45); 
+      display: flex; 
+      justify-content: center;
+       align-items: center;
+}
+
+#button-4{
+    padding-top:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color: crimson;
+}
+                            
+                                                                          /*create the skill-part*/
+#Skill-part{
+        height: 90vh;
+        background-color:rgb(32, 30, 30);
+}                     
+#Skill-part h1{
+        padding-top: 40px;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+}    
+.skill-part-1{
+    padding: 50px;
+    height:40vh;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-part-2{
+   display: flex;
+   flex-direction: row; 
+}
+.skill{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: crimson;
+    cursor: pointer;
+}
+.skill h1{
+    text-align: center;
+}                                                               
+ 
+                                /*create the contact-page*/
+   #contact-page{
+    height: 100vh;
+    background-color:black;
+    padding-top: 40px;
+   }                                           
+   #contact-page h1{
+    padding-top: 40px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+   }
+   .contact-page-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:70px ;
+   }
+   .content-page-3{
+     display: flex;
+     flex-direction: column;
+   }
+   .content-page-4{
+    height:auto;
+    width: auto;
+    margin: 5px;
+    padding-left: 20px;
+   }
+    .content-page-4 h4{
+    color: white;
+   }
+    .content-page-4 i{
+      color: white;
+      display: flex; 
+      margin: 2px;
+     align-items: center;
+     justify-content: center;
+   }
+   .content-page-4 span{
+     padding: 10px;
+    color: white;
+   }
+   .content-page-4 i{
+    color: crimson;
+    
+   }
+   .content-page-3 p{
+    color: white;
+   }
+   .contact-page-2{
+   padding-left: 40px;
+   }
+   .div-6 input{
+    margin:5px;
+    width: 40vw;
+   }
+   #textarea{
+    margin:5px;
+    width: 41vw;
+    height: 10vh;
+    border: solid 2px crimson;
+   }
+   .content-page-5 i{
+    color:crimson;
+    padding-left: 70px; 
+    margin: 10px;
+    cursor: pointer;
+   }
+   .button{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+   }
+   .button a{
+    border: solid 1px bisque;
+    padding: 10px; 
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   }
+   .button a:hover{
+    background-color: aqua;
+    color: black;
+   }
+   .submit-buttonn{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .submit-buttonn button{
+    border: solid 1px white;
+    font-size: 20px;
+    background-color:crimson;
+    color: white;
+   }
+                                                                 /*create the footer-part*/
+
+  .Copyright{
+    position: fixed;
+    bottom: 0px;
+    width: 100%; 
+    font-weight: 300;
+    background-color: rgb(4, 4, 117);
+    }
+  .Copyright  p{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }                                              
+  #div{
+    padding-top:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  #div a{
+    text-decoration: none;
+    color: white;
+  }
+                                                   /*responsive purpose using in this tag sessions*/                                            
+   @media only screen and (min-width: 200px) and (max-width:767px){
+                                                  /*responsive the home(pages) sessions*/
+.content-1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;   
+}
+img{
+    margin-top: 20px;
+    padding-right: 10px; 
+  /*  padding-left: 10px  */
+}
+h1{
+  font-size: auto;
+}
+/*
+.content-1 img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+.div2 h1{
+  font-size: 40px;
+}
+.div {
+    padding-left: 10px;
+   }
+#myTopnav a{
+  font-size: 20px;
+}
+
+                                                /*responsive the about(pages) sessions*/
+    #AboutUs{
+        background-color: rgb(32, 30, 30);
+         height: 125vh;  
+     }
+    .paragraph{
+      display: flex;
+     flex-direction: column;
+     padding: 30px;
+  }
+  .div2 img{
+    width: 95%;
+    height: 200px;
+  }
+  #imagess{
+    width: 95%;
+    height: 300px;
+  }
+    #paragraph p{
+       font-size: 20px;
+        text-align: center;    
+    }
+    #paragraph  h4,h1{
+        text-align: center;
+    }
+    #button-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    
+                                                        /*responsive th services(pages) sessions*/
+                         #our-service {
+                            background-color:black;
+                            height: auto;
+                           
+                          }   
+                          #block-part{
+                            padding-top: 70px;
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .paragraph_40 p{
+                            font-size: 25px;
+                        }
+    .paragraph_40{
+        padding-top: 10px;
+        margin: 20px;
+    }
+    #our-service h1{
+        font-size: 50px;
+    }
+    
+                                                    /*responsive the skills (pages) sessions*/
+    #Skill-part{
+    /*    height: 80vh; */
+    }
+
+    #Skill-part{   
+        padding-top: 20px;
+        background-color:rgb(32, 30, 30);
+   }
+   .skill-part-1{
+    height:20vh;
+   }
+      #contact-page{
+        height: auto;
+        width: auto;
+      }
+      .contact-page-1{
+        display: flex;
+        flex-direction:column;
+        padding-top:70px ;
+       }
+       .contact-page-2{
+        padding: 40px;
+        }
+       .div-6 input{
+        padding-right: 3px;
+        width: 90vw;
+       }
+       #textarea{
+        width: 90vw;
+       }
+  
+                                      /*create the footer-part*/
+             .Copyright{
+                width: 100vw;
+             }
+
+
+}       
+                               
+                                          /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+     #navi{
+      text-align: center;
+      cursor: pointer;
+    }
+  }
